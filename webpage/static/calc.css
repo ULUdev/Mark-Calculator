@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-align: center;
+}
+h1{
+    color: rgb(200, 10, 10);
+}
+input{
+    background: none;
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 2px solid blue;
+}

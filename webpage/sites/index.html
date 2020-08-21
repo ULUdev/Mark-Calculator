@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Mark Calculator</title>
+    <link rel="icon" href="../static/src/Logo.png">
+    <link rel="stylesheet" href="../static/index.css">
+    <script src="../static/redirect.js"></script>
 </head>
 <body>
     <h1>Mark Calculator</h1>
     <hr>
     <h2>Der Noten Rechner</h2>
-    <h3>kann:</h3>
-    <div>
+    <h2>kann:</h2>
+    <div class="featurecon">
         <p>-deinen Notenschnitt berechnen</p>
         <p>-Fächer unterscheiden</p>
     </div>
+    <p></p>
+    <button id="btn1" onclick="to_about()">erfahre mehr</button>
+    <p></p>
+    <button id="usrbtn" onclick="to_calc()">berechne deinen schnitt online</button>
+    <p></p>
+    <form class="button">
+        <input type="button" value="Code" onclick="window.location.href='https://gitlab.sokoll.com/moritz/noten-rechner'">
+    </form>
+    <p></p>
 </body>
+<footer>
+    © Copyright by me bruh
+</footer>
 </html>
