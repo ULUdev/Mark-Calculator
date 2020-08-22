@@ -4,13 +4,17 @@ function to_about(){
 function to_calc(){
     document.location = "calc.html";
 }
+function to_index(){
+    document.location = "index.html";
+}
 function calc_markavrg(){
-    let marks = String(document.getElementById("marks").value);
-    marks = marks.split(",");
+    let marks = document.getElementById("marks").value;
+    let marklist = marks.split(",");
     let num = 0;
-    for(let i;i<marks.length;i++ ){
-        num += Number(marks[i]);
+    for(let i = 0; i < marklist.length; i++){
+        num += parseInt(marklist[i]);
     }
-    let avrg = num/marks.length;
+    let avrg = num/marklist.length;
+    avrg = Math.round(avrg);
     document.getElementById("average").innerHTML = String(avrg);
 }
