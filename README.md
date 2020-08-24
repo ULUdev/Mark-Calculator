@@ -9,6 +9,9 @@
 <h1>Webpage</h1>
 <p>The Webpage is an info page but also has an calculator</p>
 <p>This Calculator only gives you the average of multiple numbers</p>
+<h1>Mobile(Android)</h1>
+<p>Because this project would be super cool to have on a Phone i decidet to develop one</p>
+<p>I don't know if this will at sometime be on the Play Store</p>
 <h1>API</h1>
 <p>Soon i try working on an API that you can develop extensions</p>
 <p>Maybe i'll implement a preset-function for subjects.</p>
