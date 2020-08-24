@@ -9,3 +9,6 @@
 <h1>Webpage</h1>
 <p>The Webpage is an info page but also has an calculator</p>
 <p>This Calculator only gives you the average of multiple numbers</p>
+<h1>API</h1>
+<p>Soon i try working on an API that you can develop extensions</p>
+<p>Maybe i'll implement a preset-function for subjects.</p>
